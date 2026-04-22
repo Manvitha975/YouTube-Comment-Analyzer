@@ -11,7 +11,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import plotly.express as px
 from openai import OpenAI
 
-# ------------------------- CONFIG -------------------------
+# CONFIG 
 YOUTUBE_API_KEY = os.environ["YOUTUBE_API_KEY"]
 OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 
